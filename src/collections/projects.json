@@ -1,0 +1,9 @@
+[
+	{
+		"name": "Biz Quotes",
+		"description": "Minimalist quote generator.",
+		"image": "/assets/images/projects/quotes.png",
+		"url": "https://bizquotes.vercel.app/"
+	}
+	
+]
