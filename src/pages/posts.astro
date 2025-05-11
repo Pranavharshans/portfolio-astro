@@ -4,33 +4,33 @@ import Layout from "../layouts/main.astro";
 
 const posts = [
   {
-    title: "Introducing Notorium: AI-Powered Study Notes Revolution",
-    description: "A deep dive into building an AI assistant that transforms lecture transcriptions into structured study notes using Next.js, Whisper, and Gemini.",
+    title: "Notorium: AI-Powered Study Notes Revolution",
+    description: "Developed an AI note-taking app using Next.js, Whisper (via Groq), and Gemini API. Built the full tech stack with Firebase integration, focusing on secure authentication and real-time data syncing. Currently in closed beta with active user feedback implementation.",
     date: "May 11 2025"
   },
   {
-    title: "Building PaperCast-AI: Transforming Research Papers into Podcasts",
-    description: "A technical deep dive into creating an AI system that converts academic papers into natural conversations using Gemini AI and Kokoro TTS.",
+    title: "PaperCast-AI: Research Papers to Podcast Conversations",
+    description: "Built an AI system using Google's Gemini AI for technical content conversion, implemented PDF processing for research papers, and integrated Kokoro TTS for natural voice synthesis. Features dynamic content scaling and multi-voice simulation with AI-generated hosts.",
     date: "February 25 2025"
   },
   {
-    title: "AutoScribe: Multi-Agent Content Creation with Mistral AI",
-    description: "How I built an AI content creation system using multiple specialized agents for research, writing, and editing, powered by Mistral AI.",
+    title: "AutoScribe: Multi-Agent AI Content Creation",
+    description: "Developed a multi-agent system using Planner, Writer, and Editor agents powered by Mistral-small API. Implemented automated research and writing pipeline with SEO optimization. Built an interactive CLI workflow for topic input and markdown output generation.",
     date: "February 11 2025"
   },
   {
-    title: "Fine-tuning LLaMA 3.2 for Enhanced Reasoning with Unsloth",
-    description: "Exploring the process of optimizing LLaMA 3.2 (3B) model for mathematical and logical reasoning using GSM8K dataset and Unsloth optimization.",
+    title: "Fine-tuning LLaMA 3.2 for Mathematical Reasoning",
+    description: "Fine-tuned LLaMA 3.2 (3B) model on GSM8K dataset for enhanced mathematical and logical reasoning. Leveraged Unsloth for efficient fine-tuning and faster inference, achieving superior performance in complex problem-solving tasks.",
     date: "October 19 2024"
   },
   {
-    title: "VirtualCalC: Touch-Free Computing with Gesture Recognition",
-    description: "Building a virtual calculator that uses webcam-based gesture recognition and Gemini API for touch-free arithmetic operations.",
+    title: "VirtualCalC: Gesture-Based Calculator",
+    description: "Created a hand gesture-based calculator using computer vision for finger movement tracking and Gemini API for real-time computations. Implemented touch-free interaction system with live display updates and intuitive gesture recognition.",
     date: "September 2 2024"
   },
   {
-    title: "CookSnap: AI-Powered Recipe Generation from Ingredient Photos",
-    description: "How I built an AI system that uses Gemini Pro Vision to analyze food ingredients and generate personalized recipes.",
+    title: "CookSnap: AI Recipe Generation from Images",
+    description: "Built an AI-powered recipe generator using Gemini Pro Vision for ingredient recognition from images. Integrated Google GenerativeAI API for personalized cooking instructions and implemented natural language understanding for detailed recipe steps.",
     date: "August 15 2024"
   }
 ];
@@ -40,7 +40,7 @@ const posts = [
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
       title="My Writing"
-      description="Sharing insights and experiences from my journey in AI development, including project deep-dives and technical discussions."
+      description="Technical deep-dives into my AI and machine learning projects, focusing on implementation details and development insights."
     />
     <div class="mt-12 space-y-6">
       {posts.map((post) => (
