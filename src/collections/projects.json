@@ -1,38 +1,64 @@
 [
-{
-"name": "PaperCast-AI",
-"description": "Research paper to podcast",
-"image": "/assets/images/projects/tempmail.best.png",
-"url": "https://tempmail.best"
-},
-{
-"name": "Yolo crack detection",
-"description": "Detect crack on concrete infra",
-"image": "/assets/images/projects/dns.surf.png",
-"url": "https://dns.surf"
-},
-{
-"name": "Auto Scribe",
-"description": "Web Toolbox.",
-"image": "/assets/images/projects/html.zone.png",
-"url": "https://html.zone"
-},
-{
-"name": "Sink",
-"description": "A Simple / Speedy / Secure Link Shortener with Analytics.",
-"image": "/assets/images/projects/sink.cool.png",
-"url": "https://sink.cool"
-},
-{
-"name": "BroadcastChannel",
-"description": "Turn your Telegram Channel into a MicroBlog.",
-"image": "/assets/images/projects/broadcast-channel.png",
-"url": "https://github.com/ccbikai/BroadcastChannel"
-},
-{
-"name": "L(O*62).ONG",
-"description": "Make your URL looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooonger",
-"image": "/assets/images/projects/long.png",
-"url": "https://loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.ong"
-}
+  {
+    "name": "PaperCast-AI",
+    "description": "An AI-powered application that transforms research papers into engaging podcast-style conversations, making academic content more accessible and entertaining.",
+    "url": "https://github.com/Pranavharshans/PaperCast-AI",
+    "date": "16/02/2025 – 25/02/2025",
+    "features": [
+      "AI Summarization – Converts technical content into natural dialogue using Google's Gemini AI",
+      "PDF Processing – Extracts and processes research papers in PDF format",
+      "Natural Voice Synthesis – Generates human-like voices with Kokoro TTS",
+      "Interactive Web Interface – Built using Streamlit for a seamless user experience",
+      "Dynamic Content Scaling – Adjusts conversation length based on paper size",
+      "Multi-Voice Simulation – Features AI-generated dialogues between two hosts"
+    ]
+  },
+  {
+    "name": "AutoScribe",
+    "description": "An AI-driven system that automates article research, writing, and editing using multiple specialized agents.",
+    "url": "https://github.com/Pranavharshans/AutoScribe-CrewAI",
+    "date": "17/01/2025 – 11/02/2025",
+    "features": [
+      "Multi-Agent Collaboration – Uses Planner, Writer, and Editor agents for structured content creation",
+      "Automated Research & Writing – Plans, writes, and refines articles on any topic",
+      "SEO Optimization – Incorporates relevant keywords for better search visibility",
+      "Mistral AI-Powered – Utilizes Mistral-small via API for content generation",
+      "Interactive CLI Workflow – Users can input topics directly through the command line",
+      "Markdown Output – Generates well-formatted articles ready for publishing"
+    ]
+  },
+  {
+    "name": "Llama 3.2 Fine-tuning (Reasoning)",
+    "description": "A fine-tuned LLaMA 3.2 (3B) model optimized for enhanced reasoning capabilities using Unsloth.",
+    "url": "#",
+    "date": "15/09/2024 – 19/10/2024",
+    "features": [
+      "Dataset – Fine-tuned on GSM8K for improved mathematical and logical reasoning",
+      "Optimized Training – Leveraged Unsloth for efficient fine-tuning and faster inference",
+      "Enhanced Reasoning – Achieves superior performance in complex problem-solving tasks"
+    ]
+  },
+  {
+    "name": "VirtualCalC",
+    "description": "A hand gesture-based virtual calculator that enables touch-free arithmetic operations using a webcam.",
+    "url": "https://github.com/Pranavharshans/VirtualCalC",
+    "date": "16/08/2024 – 02/09/2024",
+    "features": [
+      "Gesture Recognition – Tracks and interprets finger movements for number and operation input",
+      "AI-Powered Calculation – Utilizes the Gemini API for real-time computations",
+      "Touch-Free Interaction – Provides an interactive and accessible user experience",
+      "Live Display – Shows calculations instantly on the screen"
+    ]
+  },
+  {
+    "name": "CookSnap",
+    "description": "An AI-powered recipe generator that analyzes images of ingredients and provides personalized cooking instructions.",
+    "url": "#",
+    "date": "01/08/2024 – 15/08/2024",
+    "features": [
+      "Image-Based Ingredient Detection – Uses Gemini Pro Vision to recognize ingredients from images",
+      "AI-Generated Recipes – Leverages the Google GenerativeAI API for tailored recipe suggestions",
+      "Natural Language Understanding – Provides detailed, easy-to-follow cooking instructions"
+    ]
+  }
 ]
