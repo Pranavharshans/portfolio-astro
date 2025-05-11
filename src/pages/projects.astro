@@ -1,0 +1,32 @@
+---
+import projects from "../collections/projects.json";
+import PageHeading from "../components/page-heading.astro";
+import Project from "../components/project.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="My Projects">
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading
+      title="My Projects"
+      description="Welcome to my project portfolio, showcasing both completed and ongoing endeavors in artificial intelligence and machine learning. Here you'll find a curated collection of my work, ranging from innovative AI solutions to cutting-edge research implementations. Each project represents a step forward in exploring the possibilities of intelligent systems."
+    />
+
+    <div
+      class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-7 sm:gap-5 sm:grid-cols-2"
+    >
+      {
+        projects.map((project) => {
+          return (
+            <Project
+              name={project.name}
+              description={project.description}
+              image={project.image}
+              url={project.url}
+            />
+          )
+        })
+      }
+    </div>
+  </section>
+</Layout>
